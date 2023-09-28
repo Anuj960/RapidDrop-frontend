@@ -5,10 +5,10 @@ import HomeCard from "../component/HomeCard";
 import { GrPrevious, GrNext } from "react-icons/gr";
 import FilterProduct from "../component/FilterProduct";
 import AllProduct from "../component/AllProduct";
-import Bk from "../assest/Birthday-cake-with-flowers.png"
-import dg from "../assest/dragonfruit - fruits.jpg"
-import paneer from "../assest/paneer-category.png"
-import sandweech from "../assest/Sandwich1.png"
+// import Bk from "../assest/Birthday-cake-with-flowers.png"
+import dg from "../assest/carrot red per kg - vegetables.jpg"
+import paneer from "../assest/cauliflower 1 pc - vegetables.jpg"
+// import sandweech from "../assest/Sandwich1.png"
 //  import TbCircleArrowUpRightFilled from "react-icons/tb"
 
 const Home = () => {
@@ -61,27 +61,13 @@ const Home = () => {
         </div>
 
         <div className="md:w-1/2 flex flex-wrap gap-5 p-4 justify-center">
-          
-            
-            {/* <!-- // homeProductCartList[0] ?
-            //   homeProductCartList.map(el => { */}
-            {/* //     return (
-            //       <HomeCard */}
-            {/* //         key={el._id}
-            //         id={el._id}
-            //         image={el.image}
-            //         name={el.name}
-            //         price={el.price}
-            //         category={el.category}
-            //       />
-            //     )
-            //   }) --> */}
+        
             <div className="md:w-1/2 flex flex-wrap gap-3 p-4 justify-center">
               <img src={dg} alt="loading.." srcSet=""/>
 
             </div>
             
-            /
+            
             <div className="md:w-1/2 flex flex-wrap gap-5 p-4 justify-center">
               <img src={paneer} alt="loading.." srcSet=""/>
 
